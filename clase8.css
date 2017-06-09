@@ -1,0 +1,64 @@
+body{
+	direction: ltr;  /*  - rtl  quiere decir right to left .  el navegador dispone por defecto ltr  left to right*/
+
+}
+
+
+
+
+.flex-container{
+	display: 	-webkit-flex;
+	display: 	flex;
+	-webkit-flex-direction: row-reverse;
+	flex-direction: row-reverse;	
+	justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 		400px;
+	height:		250px;
+	background-color: lightgray;	
+
+}
+
+.flex-item {
+	background-color: 	cornflowerblue;
+	width: 	100px;
+	height: 100px;
+	margin: 10px;
+}
+.firts {
+	-webkit-order: -1;
+	order: -1;
+}
+
+
+
+
+
+
+
+
+/*
+			APUNTES GENERALES DE LA CLASE 
+
+	- layout  es el diseño de la pagina
+	- hay tres conceptos muy importantes en el flexbox
+	- FLERX CONTAINES:  es el cuadro principal 
+	- FLEX ITEMS:  son los cuadritos dentro del cuadro grande
+	- FLEX LINE:  es como se disponen los cuadritos dentro del cuadro grande
+	- rtl  quiere decir right to left .  el navegador dispone por defecto ltr  left to right
+	- -WEB-KIT: guerra de los navgadores
+	- flex-direction 
+	- flex justify
+	- se pueden declarar varias clases dentro de las clases solamente con darle un espacio y nombrarla
+	- chuleta de flexbox: http://vudav.github.io/flexbox-cheatsheet/ 
+
+
+	*/
+
+	/*
+			PREGUNTAS
+
+
+
+	*/
